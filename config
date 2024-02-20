@@ -1,0 +1,76 @@
+apiVersion: v1
+clusters:
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCVENDQWUyZ0F3SUJBZ0lJQVA0d25FV0Nma0l3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TkRBeU1qQXhNRFF3TXpsYUZ3MHpOREF5TVRjeE1EUTFNemxhTUJVeApFekFSQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQkR3QXdnZ0VLCkFvSUJBUUNhL0d2WXRTdlhQeUx1S3h1SmxpZmdLYkUxcG5wQitBMmVCYVZ4d08vWGFGQ2Fta09BaU5sZ2pPNm4KOHFJUEg5WmtxRDAzenRrTWx3K1JBRGRVVUNiWmViMW1KdGFpaXg1V25TMkNrdmlGbExiZFltNDZlRnZjcGxmUgpEaUpqUWxhdXo2dzUvUWJST1NVQTgyMTNmaVBxZkQ4NnpyQ1VtME91dEFLaE5hdE9EaDVONmZZZ0RkeURxa2xCCjVtTFViMTE4OGp0ejh6d1YwRnJDSkpIUzJlN3QvS3NFWGJFbU5rU2pYbWtvajRkZXR2TW01bEMzT0xOZ3QxTWUKWDNOWi9iZU8wWFhNdkIzYnNZWDM5ZEIvWHJlNVpZRUtka0w0MEEyNElDNUlsR2hzUElGV2xIMDkzaGFOeGhoLwpSckEwb25SQmExazhPQ0ZzSlRPTWFTWStzK3gxQWdNQkFBR2pXVEJYTUE0R0ExVWREd0VCL3dRRUF3SUNwREFQCkJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJUR2dwM1UyRWluNEtzMjd2SEpxY2VrbEF2Qk9EQVYKQmdOVkhSRUVEakFNZ2dwcmRXSmxjbTVsZEdWek1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQUd3NEtQT1NrbwpiVnNGaU5WMElIcmtDWHZ0cXFpNm5wQkFFRE1SU3Rpc3RVU0FxLzVERGgyRUNSMmtDUXZ0eGM5TXA5Vmt5eGFmCkhkYmkyM3pqWCtackFGRHk3c1ZIWXpxSjdKS1pJQitqZWsyTUdEcEEyVkYrdjRybyttbStWUVdGVzNpUXZrd1kKZXI1VkkzSDJ3bjBDWXpsYmh3aW0rK2ljZ2NQS2tDZ3ZSTXdmMisydkhCR3k0ZW54OHlqcTRzVitFRkYyZmtNcQo5WGczVHFJRTFEWE5FTGtjZzM3UE9tNVNMVC9rUDdVQVF5ZC9tUXB3NlZ3UnlIRzdWQncrUG1BcldEc0FVV0pGClQ2anBtenRFL254c1BJNnoxT3VuRGxMNFhBQ2VzMzNxWUk3T0hKY0RnMDRaMnFncERxbUgzYUNpNmRUTHV1N0sKbjhHU0RVZ3c3Y3BECi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+    server: https://34B5EC0E8B028A07C68AB1BD662C6F9C.gr7.ap-south-1.eks.amazonaws.com
+  name: arn:aws:eks:ap-south-1:315972457772:cluster/basic-cluster
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCVENDQWUyZ0F3SUJBZ0lJZHB5SVJHTE1tUEF3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TkRBeU1qQXhNakl6TVRSYUZ3MHpOREF5TVRjeE1qSTRNVFJhTUJVeApFekFSQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQkR3QXdnZ0VLCkFvSUJBUURoS1dTZE01VTNxUzlGMjZBdFJyeW1ROXZDdkExTExKdVNhTG9TNEpqK3JENHFwNFNTWnZVZjBVQzUKY1VoTE56b1hWMzQ0Zm95a3o5eEllSXpVNjJVMGxhT3VxaGF1bnlwdXVSbGd2WmQrMVEwNXoxdTJkcU4reFhNUgpNb0hiOStKeFdBZWpYMVJxYWZGc2xzaVpMM1ZYSUhBdGRsTm1OU0F5bk1FcW1ZcXV6ZzVWYUd5NlBSWmRyV3UrClRsYmRYTHlXei92cGlpK1pOR2N3RFFuRTZuc2NqQXpFZEZ3NDh6bkQvNEVtU3JYN2lBSUZJNURvOFV0ZHJmSmcKZDh3SlZ5Y0Jwd0c3WnB1bnd6UlYvOEpZeGhpc05wSzhiejBLSHpPbUF4QUJsZWRNOFdHRnpJNm9KV1VCeDVrNwpCb3VmTEYzNGFTSXlhazJjVUJ5MTFaLzZCU2ZkQWdNQkFBR2pXVEJYTUE0R0ExVWREd0VCL3dRRUF3SUNwREFQCkJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJSZGhRQ3JFTE4xeXhwQXp5ZHd0Q216cGRxRGVEQVYKQmdOVkhSRUVEakFNZ2dwcmRXSmxjbTVsZEdWek1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQ2wwSFVsQlpMSgoydnY4SUFndGxaT1FNZG9jMmMwQjRsbFowVlFXRlRXaVF2SUErMVpkRnJ0b25qN3RTeW95ZUxYMFBRdUhzM2JrCkxIYTh0NHJnbHhvOWl1eEsxN2FNOVZ2S3RuQ2w1bW1raHZKQ3IwRjIraE1FMHpTVldDUWhUak5ZUHEyazlTZVAKTzJkaThLbFVWNVJhZnJjdFZhcjRFUkVoRzRpYjk1Y2NSNEFqQlpSL2x6WmhGVHg1ejk0aGtpWldSNG12bUdLSwphYmlCcHNNaW11bmxvOENUdTJaSGcyRm5TcnpIdUc1d00zYlJCQ1U0TWIyUlZ0YzZSZEhSekhQcDhrVnJHRW95CnlwQUJyc2poN2hDbkhaMXE4YVUwT1BPMFBFL2Zyc1dWRWorTlJwN2NYZEgrK1BqMzBWQVFhYlU4dWJQUE4rM1YKNnVZZS9jWmJBWGc5Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+    server: https://1BA9B90B4B32242ADBA7DB7FF0910DD2.gr7.ap-south-1.eks.amazonaws.com
+  name: myekscluster.ap-south-1.eksctl.io
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCVENDQWUyZ0F3SUJBZ0lJZHB5SVJHTE1tUEF3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TkRBeU1qQXhNakl6TVRSYUZ3MHpOREF5TVRjeE1qSTRNVFJhTUJVeApFekFSQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQkR3QXdnZ0VLCkFvSUJBUURoS1dTZE01VTNxUzlGMjZBdFJyeW1ROXZDdkExTExKdVNhTG9TNEpqK3JENHFwNFNTWnZVZjBVQzUKY1VoTE56b1hWMzQ0Zm95a3o5eEllSXpVNjJVMGxhT3VxaGF1bnlwdXVSbGd2WmQrMVEwNXoxdTJkcU4reFhNUgpNb0hiOStKeFdBZWpYMVJxYWZGc2xzaVpMM1ZYSUhBdGRsTm1OU0F5bk1FcW1ZcXV6ZzVWYUd5NlBSWmRyV3UrClRsYmRYTHlXei92cGlpK1pOR2N3RFFuRTZuc2NqQXpFZEZ3NDh6bkQvNEVtU3JYN2lBSUZJNURvOFV0ZHJmSmcKZDh3SlZ5Y0Jwd0c3WnB1bnd6UlYvOEpZeGhpc05wSzhiejBLSHpPbUF4QUJsZWRNOFdHRnpJNm9KV1VCeDVrNwpCb3VmTEYzNGFTSXlhazJjVUJ5MTFaLzZCU2ZkQWdNQkFBR2pXVEJYTUE0R0ExVWREd0VCL3dRRUF3SUNwREFQCkJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJSZGhRQ3JFTE4xeXhwQXp5ZHd0Q216cGRxRGVEQVYKQmdOVkhSRUVEakFNZ2dwcmRXSmxjbTVsZEdWek1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQ2wwSFVsQlpMSgoydnY4SUFndGxaT1FNZG9jMmMwQjRsbFowVlFXRlRXaVF2SUErMVpkRnJ0b25qN3RTeW95ZUxYMFBRdUhzM2JrCkxIYTh0NHJnbHhvOWl1eEsxN2FNOVZ2S3RuQ2w1bW1raHZKQ3IwRjIraE1FMHpTVldDUWhUak5ZUHEyazlTZVAKTzJkaThLbFVWNVJhZnJjdFZhcjRFUkVoRzRpYjk1Y2NSNEFqQlpSL2x6WmhGVHg1ejk0aGtpWldSNG12bUdLSwphYmlCcHNNaW11bmxvOENUdTJaSGcyRm5TcnpIdUc1d00zYlJCQ1U0TWIyUlZ0YzZSZEhSekhQcDhrVnJHRW95CnlwQUJyc2poN2hDbkhaMXE4YVUwT1BPMFBFL2Zyc1dWRWorTlJwN2NYZEgrK1BqMzBWQVFhYlU4dWJQUE4rM1YKNnVZZS9jWmJBWGc5Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+    server: https://1BA9B90B4B32242ADBA7DB7FF0910DD2.gr7.ap-south-1.eks.amazonaws.com
+  name: arn:aws:eks:ap-south-1:315972457772:cluster/myekscluster
+contexts:
+- context:
+    cluster: arn:aws:eks:ap-south-1:315972457772:cluster/basic-cluster
+    user: arn:aws:eks:ap-south-1:315972457772:cluster/basic-cluster
+  name: arn:aws:eks:ap-south-1:315972457772:cluster/basic-cluster
+- context:
+    cluster: myekscluster.ap-south-1.eksctl.io
+    user: terraform@myekscluster.ap-south-1.eksctl.io
+  name: terraform@myekscluster.ap-south-1.eksctl.io
+- context:
+    cluster: arn:aws:eks:ap-south-1:315972457772:cluster/myekscluster
+    user: arn:aws:eks:ap-south-1:315972457772:cluster/myekscluster
+  name: arn:aws:eks:ap-south-1:315972457772:cluster/myekscluster
+current-context: arn:aws:eks:ap-south-1:315972457772:cluster/myekscluster
+kind: Config
+preferences: {}
+users:
+- name: arn:aws:eks:ap-south-1:315972457772:cluster/basic-cluster
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1alpha1
+      args:
+      - --region
+      - ap-south-1
+      - eks
+      - get-token
+      - --cluster-name
+      - basic-cluster
+      command: aws
+      env: null
+      interactiveMode: IfAvailable
+      provideClusterInfo: false
+- name: terraform@myekscluster.ap-south-1.eksctl.io
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - eks
+      - get-token
+      - --output
+      - json
+      - --cluster-name
+      - myekscluster
+      - --region
+      - ap-south-1
+      command: aws
+      env:
+      - name: AWS_STS_REGIONAL_ENDPOINTS
+        value: regional
+      provideClusterInfo: false
+- name: arn:aws:eks:ap-south-1:315972457772:cluster/myekscluster
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1alpha1
+      args:
+      - --region
+      - ap-south-1
+      - eks
+      - get-token
+      - --cluster-name
+      - myekscluster
+      command: aws
